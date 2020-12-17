@@ -18,17 +18,19 @@
 .content-main__cards--item__image{
     grid-area: image;
 }
+
 .content-main__cards--item__image > img{
     height: 100%;
     width: 100%;
     border-radius: 5px;
 }
+
 .content-main__cards--item__title{
     grid-area: title;
     color: #0e623a;
     font-size: 2em;
-    /*border-bottom: 1px solid #062b19;*/
 }
+
 .content-main__cards--item__date{
     grid-area: date;
     color: #169c5c;
@@ -36,16 +38,19 @@
     border-bottom: 1px solid #062b19;
     border-top: 1px solid #062b19;
 }
+
 .content-main__cards--item__detail{
     grid-area: detail;
     color: #052013;
     font-size: 0.7em;
 }
+
 .content-main__cards--item__button{
     grid-area: button;
     align-self: center;
     width: 100%;
 }
+
 .content-main__cards--item__button > a > button{
     width: 100%;
     min-height: 50px;
@@ -54,6 +59,7 @@
     border: 1px solid #0e623a;
     border-radius: 5px;
 }
+
 @media (min-width: 426px){
     .content-main__cards--item{
         grid-template-columns: 2fr 3fr 1fr;
@@ -70,14 +76,16 @@
         flex-direction: row;
         flex-wrap: wrap;
     }
+
     .content-main__cards--item__image{
         padding: 10px;
     }
+
     .content-main__cards--item__image > img{
         height: 100%;
         width: 100%;
-        /*padding: 10px;*/
     }
+
     .content-main__cards--item__date{
         display: flex;
         align-items: center;

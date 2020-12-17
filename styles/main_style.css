@@ -16,10 +16,12 @@
     display: flex;
     justify-content: space-between;
 }
+
 .content-header__navbar__tabs__item{
     display: inline;
     padding: 5px 10px;
 }
+
 .content-header__navbar__logo--link__image{
     height: 25px;
     width: 75px;
@@ -30,6 +32,7 @@
     align-items: center;
     justify-content: space-evenly;
 }
+
 .content-footer > h3{
     font-size: .8em;
 }
