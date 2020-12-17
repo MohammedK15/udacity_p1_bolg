@@ -36,3 +36,15 @@
 .content-footer > h3{
     font-size: .8em;
 }
+
+i{
+    font-style: italic;
+}
+
+b{
+    font-weight: bold;
+}
+
+u{
+    text-decoration: underline;
+}
