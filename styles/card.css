@@ -1,0 +1,56 @@
+.content-main__cards--item{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 50px 25px 100px 50px;
+    grid-template-areas:
+            'image'
+            'title'
+            'date'
+            'detail'
+            'button';
+    grid-gap: 5px;
+    padding: 10px;
+    margin: 5px 10px;
+    border: 2px solid green;
+    border-radius: 5px;
+
+}
+
+
+.content-main__cards--item__image{
+    grid-area: image;
+}
+.content-main__cards--item__image > img{
+    height: 150px;
+    width: 350px;
+}
+.content-main__cards--item__title{
+    grid-area: title;
+    color: #0e623a;
+    font-size: 2em;
+    border-bottom: 1px solid #0e623a50;
+}
+.content-main__cards--item__date{
+    grid-area: date;
+    color: #169c5c;
+    font-size: .9em;
+    border-bottom: 1px solid #0e623a50;
+}
+.content-main__cards--item__detail{
+    grid-area: detail;
+    color: #052013;
+    font-size: 0.7em;
+}
+.content-main__cards--item__button{
+    grid-area: button;
+    align-self: center;
+    width: 100%;
+}
+.content-main__cards--item__button > a > button{
+    width: 100%;
+    min-height: 50px;
+    color: #0e623a;
+    background-color: #ebffee90;
+    border: 1px solid #0e623a;
+    border-radius: 5px;
+}

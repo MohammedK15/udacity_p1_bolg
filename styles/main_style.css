@@ -9,6 +9,7 @@
 
 /* grid */
 @import 'layout/_grids.css';
+@import 'card.css';
 
 .content-header__navbar{
     display: flex;
@@ -22,3 +23,21 @@
     height: 25px;
     width: 75px;
 }
+
+.content-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.content-footer > h5{
+    font-size: .8em;
+}
+/*.content-footer__social{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*}*/
+/*.content-footer__social > i {*/
+/*    padding: 0 5px;*/
+/*    margin: 5px;*/
+/*}*/
