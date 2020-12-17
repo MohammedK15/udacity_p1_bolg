@@ -10,12 +10,18 @@
     align-items: center;
     flex-direction: column;
 }
+
+.blog-main_image > img{
+    border-radius: 5px 5px 0 0;
+}
+
 .blog-post_blog > p{
     padding: 10px;
     border: 1px solid #062b19;
     border-radius: 5px;
     background-color: #eaeaea50;
 }
+
 .blog-post_shear{
     display: flex;
     justify-content: space-evenly;
@@ -34,15 +40,16 @@
     align-items: center;
 }
 
-
 .blog-author__detail{
     border-left: 1px solid #062b19;
     padding-left: 10px;
     margin-left: 10px;
 }
+
 .blog-author__detail > h3 > b{
     font-weight: bold;
 }
+
 .blog-author__detail > h3 > i{
     font-style: italic;
 }
@@ -52,3 +59,4 @@
     width: 40px;
     border-radius: 50%;
 }
+

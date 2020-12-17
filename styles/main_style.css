@@ -9,7 +9,7 @@
 
 /* grid */
 @import 'layout/_grids.css';
-@import 'card.css';
+@import 'layout/_card.css';
 @import 'layout/_grid_bolg.css';
 
 .content-header__navbar{
