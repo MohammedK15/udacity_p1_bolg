@@ -28,13 +28,13 @@
     grid-area: title;
     color: #0e623a;
     font-size: 2em;
-    border-bottom: 1px solid #0e623a50;
+    border-bottom: 1px solid #062b19;
 }
 .content-main__cards--item__date{
     grid-area: date;
     color: #169c5c;
     font-size: .9em;
-    border-bottom: 1px solid #0e623a50;
+    border-bottom: 1px solid #062b19;
 }
 .content-main__cards--item__detail{
     grid-area: detail;
@@ -50,7 +50,7 @@
     width: 100%;
     min-height: 50px;
     color: #0e623a;
-    background-color: #ebffee90;
+    background-color: #eaeaea90;
     border: 1px solid #0e623a;
     border-radius: 5px;
 }

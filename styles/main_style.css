@@ -10,6 +10,7 @@
 /* grid */
 @import 'layout/_grids.css';
 @import 'card.css';
+@import 'layout/_grid_bolg.css';
 
 .content-header__navbar{
     display: flex;
@@ -29,15 +30,6 @@
     align-items: center;
     justify-content: space-evenly;
 }
-.content-footer > h5{
+.content-footer > h3{
     font-size: .8em;
 }
-/*.content-footer__social{*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*}*/
-/*.content-footer__social > i {*/
-/*    padding: 0 5px;*/
-/*    margin: 5px;*/
-/*}*/
